@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Task Manager</h1>
+
+        <h2>Add Task</h2>
+        <form id="taskForm">
+            <label for="name">Task Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="priority">Priority:</label>
+            <select id="priority" name="priority" required>
+                <option value="عاجلة">عاجلة</option>
+                <option value="متوسطة">متوسطة</option>
+                <option value="منخفضة">منخفضة</option>
+            </select>
+
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category" required>
+
+            <button type="submit">Add Task</button>
+        </form>
+
+        <h2>Task List</h2>
+        <div id="taskList"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="sc.java"></script>
+</body>
+</html>
